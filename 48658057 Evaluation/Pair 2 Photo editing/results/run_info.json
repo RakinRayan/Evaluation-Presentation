@@ -1,0 +1,1 @@
+{"date":"Sat Oct 31 05:39:22 2026","gpu":"Tesla T4","torch":"2.11.0+cu128","diffusers":"0.41.0","transformers":"5.20.1","seeds":[0,1,2],"edits":8,"qwen steps":40,"klein steps":4}

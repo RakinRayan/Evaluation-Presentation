@@ -1,0 +1,7 @@
+damage,system,psnr_y,ssim_y,lpips,musiq,delta_e
+clean,AuraSR v2,26.9498,0.9001,0.0845,72.1356,4.0338
+clean,Bicubic,27.7519,0.8638,0.2366,48.7462,3.4001
+clean,HYPIR,25.0751,0.8577,0.1031,73.3702,4.9948
+supplier,AuraSR v2,26.0954,0.8615,0.1495,66.4875,4.8632
+supplier,Bicubic,27.0038,0.831,0.3201,44.1491,4.8489
+supplier,HYPIR,24.9855,0.8474,0.1282,72.3349,5.1681

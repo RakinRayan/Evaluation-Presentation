@@ -1,0 +1,9 @@
+task,system,clip_dir,product_dino,product_lpips,product_ssim
+colour_variant,FLUX.2 klein,0.1778,0.9529,0.2994,0.7907
+colour_variant,Qwen-Image-2.1,0.1875,0.9449,0.2819,0.8238
+lifestyle_background,FLUX.2 klein,0.1176,0.5186,0.7276,0.53
+lifestyle_background,Qwen-Image-2.1,0.1261,0.6901,0.6997,0.4738
+sale_tag,FLUX.2 klein,0.1811,0.996,0.0275,0.9766
+sale_tag,Qwen-Image-2.1,0.1798,0.9847,0.0648,0.9144
+studio_background,FLUX.2 klein,-0.0167,0.9703,0.1431,0.9044
+studio_background,Qwen-Image-2.1,0.0238,0.9478,0.1378,0.8251

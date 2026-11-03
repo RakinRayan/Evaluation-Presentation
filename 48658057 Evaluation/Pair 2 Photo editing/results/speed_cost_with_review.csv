@@ -1,0 +1,3 @@
+system,seconds per edit,GPU energy Wh per edit (max),GPU AUD per edit,review AUD per edit,agency AUD per edit,"saving AUD per month (2,000 edits)",share I would publish,saving AUD per month (only edits I would publish)
+FLUX.2 klein,26.89727318286896,0.5230025341113408,0.0073967501252889,0.29852083333333335,17.32,34028.16483308275,0.5,17014.082416541376
+Qwen-Image-2.1,114.67744052410126,2.229839121301969,0.0315362961441278,0.29852083333333335,17.32,33979.88574104507,0.625,21237.42858815317

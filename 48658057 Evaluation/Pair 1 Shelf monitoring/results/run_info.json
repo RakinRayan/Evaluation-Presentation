@@ -1,0 +1,1 @@
+{"date":"Sat Oct 31 04:17:09 2026","gpu":"Tesla T4","torch":"2.11.0+cu128","ultralytics":"8.4.189","rfdetr":"1.11.2","seeds":[0,1,2],"train\/val\/test":[500,100,150]}

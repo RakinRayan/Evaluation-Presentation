@@ -1,0 +1,13 @@
+system,seed,edit,ocr_text,ocr_match
+Qwen-Image-2.1,0,B07FF6ZGH8_sale_tag,"MTy SALE NIH""",0.4
+Qwen-Image-2.1,0,B07VXQXBKV_sale_tag,SALE 20% OFF POCNv amazon basics,0.5405405405405406
+Qwen-Image-2.1,1,B07FF6ZGH8_sale_tag,SALE 20% OFF,1.0
+Qwen-Image-2.1,1,B07VXQXBKV_sale_tag,Ocwv 20% SALE OFF amazon basics,0.3888888888888889
+Qwen-Image-2.1,2,B07FF6ZGH8_sale_tag,20% SALE OFF,0.7
+Qwen-Image-2.1,2,B07VXQXBKV_sale_tag,SALE 203 OFF % Ocwv C0 amazon pasics,0.46153846153846156
+FLUX.2 klein,0,B07FF6ZGH8_sale_tag,3 8 20%,0.4
+FLUX.2 klein,0,B07VXQXBKV_sale_tag,SALE ZOOFF Oc5v C0 205 OFF amazon basics,0.32558139534883723
+FLUX.2 klein,1,B07FF6ZGH8_sale_tag,SALE 20% OFF,1.0
+FLUX.2 klein,1,B07VXQXBKV_sale_tag,20 Ocwv 7c0 SALE )%FF amazonics,0.4
+FLUX.2 klein,2,B07FF6ZGH8_sale_tag,SALE 20% OFF,1.0
+FLUX.2 klein,2,B07VXQXBKV_sale_tag,Ocwv C0 SALE 20% OFF amazonics,0.5714285714285714

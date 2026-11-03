@@ -1,0 +1,3 @@
+codec,BD-rate vs AVIF %,CPU decode PSNR drop,beats AVIF by 10%,decodes on CPU,shows in browsers
+HPCM-Base,-37.80907630432129,44.63578169949206,True,False,False
+DCAE,-41.22282766019488,35.509414438383374,True,False,False

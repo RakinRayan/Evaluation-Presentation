@@ -1,0 +1,25 @@
+system,seed,edit,seconds,output
+FLUX.2 klein,0,B00JKQKAYG_studio_background,27.779391288757324,/kaggle/working/pair2/klein/seed0/B00JKQKAYG_studio_background.png
+FLUX.2 klein,0,B00JKQKAYG_lifestyle_background,27.19932222366333,/kaggle/working/pair2/klein/seed0/B00JKQKAYG_lifestyle_background.png
+FLUX.2 klein,0,B07FF6ZGH8_colour_variant,27.07902193069458,/kaggle/working/pair2/klein/seed0/B07FF6ZGH8_colour_variant.png
+FLUX.2 klein,0,B07FF6ZGH8_sale_tag,26.9342520236969,/kaggle/working/pair2/klein/seed0/B07FF6ZGH8_sale_tag.png
+FLUX.2 klein,0,B075XVTSPS_studio_background,26.885661125183105,/kaggle/working/pair2/klein/seed0/B075XVTSPS_studio_background.png
+FLUX.2 klein,0,B075XVTSPS_lifestyle_background,26.836426258087158,/kaggle/working/pair2/klein/seed0/B075XVTSPS_lifestyle_background.png
+FLUX.2 klein,0,B07VXQXBKV_colour_variant,26.899560689926147,/kaggle/working/pair2/klein/seed0/B07VXQXBKV_colour_variant.png
+FLUX.2 klein,0,B07VXQXBKV_sale_tag,27.01280927658081,/kaggle/working/pair2/klein/seed0/B07VXQXBKV_sale_tag.png
+FLUX.2 klein,1,B00JKQKAYG_studio_background,26.792274951934814,/kaggle/working/pair2/klein/seed1/B00JKQKAYG_studio_background.png
+FLUX.2 klein,1,B00JKQKAYG_lifestyle_background,26.630836486816406,/kaggle/working/pair2/klein/seed1/B00JKQKAYG_lifestyle_background.png
+FLUX.2 klein,1,B07FF6ZGH8_colour_variant,26.82628321647644,/kaggle/working/pair2/klein/seed1/B07FF6ZGH8_colour_variant.png
+FLUX.2 klein,1,B07FF6ZGH8_sale_tag,26.879579305648804,/kaggle/working/pair2/klein/seed1/B07FF6ZGH8_sale_tag.png
+FLUX.2 klein,1,B075XVTSPS_studio_background,26.971075534820557,/kaggle/working/pair2/klein/seed1/B075XVTSPS_studio_background.png
+FLUX.2 klein,1,B075XVTSPS_lifestyle_background,27.01006293296814,/kaggle/working/pair2/klein/seed1/B075XVTSPS_lifestyle_background.png
+FLUX.2 klein,1,B07VXQXBKV_colour_variant,27.09573745727539,/kaggle/working/pair2/klein/seed1/B07VXQXBKV_colour_variant.png
+FLUX.2 klein,1,B07VXQXBKV_sale_tag,26.975029706954956,/kaggle/working/pair2/klein/seed1/B07VXQXBKV_sale_tag.png
+FLUX.2 klein,2,B00JKQKAYG_studio_background,26.531545639038086,/kaggle/working/pair2/klein/seed2/B00JKQKAYG_studio_background.png
+FLUX.2 klein,2,B00JKQKAYG_lifestyle_background,26.692254304885864,/kaggle/working/pair2/klein/seed2/B00JKQKAYG_lifestyle_background.png
+FLUX.2 klein,2,B07FF6ZGH8_colour_variant,26.876436471939087,/kaggle/working/pair2/klein/seed2/B07FF6ZGH8_colour_variant.png
+FLUX.2 klein,2,B07FF6ZGH8_sale_tag,26.904343366622925,/kaggle/working/pair2/klein/seed2/B07FF6ZGH8_sale_tag.png
+FLUX.2 klein,2,B075XVTSPS_studio_background,26.889837980270386,/kaggle/working/pair2/klein/seed2/B075XVTSPS_studio_background.png
+FLUX.2 klein,2,B075XVTSPS_lifestyle_background,26.903795957565308,/kaggle/working/pair2/klein/seed2/B075XVTSPS_lifestyle_background.png
+FLUX.2 klein,2,B07VXQXBKV_colour_variant,26.74201512336731,/kaggle/working/pair2/klein/seed2/B07VXQXBKV_colour_variant.png
+FLUX.2 klein,2,B07VXQXBKV_sale_tag,26.894985675811768,/kaggle/working/pair2/klein/seed2/B07VXQXBKV_sale_tag.png

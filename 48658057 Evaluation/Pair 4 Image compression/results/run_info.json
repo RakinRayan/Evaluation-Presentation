@@ -1,0 +1,1 @@
+{"date":"Sat Oct 31 05:04:57 2026","gpu":"Tesla T4","torch":"2.11.0+cu128","compressai":"1.2.8","imagecodecs":"2026.1.14","hpcm commit":"c271cfe2412071e7cacf4186825f1bbff4434664","dcae commit":"e2525a00467cbc326045674c7e5e0f1d9964604b","lambdas":["0.0035","0.0067","0.013","0.025"]}
