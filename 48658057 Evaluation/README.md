@@ -38,6 +38,15 @@ to a commit. `results/run_info.json` records the date, GPU, PyTorch version, pac
 of the four pairs: `python report_figures.py` (needs matplotlib, numpy, pandas and pillow; no GPU, a few seconds). It
 writes them to `report_figures/`. Figure 1 is a diagram of the framework, not data.
 
+### Extra statistics
+
+`statistics_check.py` in this folder computes, from the saved results only, the Holm-corrected p within each pair,
+bootstrap 95% intervals for the mean differences (10,000 resamples, seed 0) and the matched-pairs rank-biserial
+correlation for every paired comparison in the report, including the ratings, plus the follow-up checks the report
+quotes (shelf-density subgroups and trend, Spearman correlations, per-photo BD-rates against AVIF and the
+background check): `python statistics_check.py` (needs
+numpy, pandas and scipy; a few seconds). It writes `statistics_check.csv`. Its p-values match the notebooks'.
+
 ### My ratings (user feedback)
 
 The unit's update allows the student's own evaluation as user feedback. Each notebook saves the two models' outputs for
@@ -116,7 +125,7 @@ and re-running a notebook regenerates all of its images.
 - **Reused:** `aura-sr` 0.0.4 and the HYPIR code at commit b61d107 with the authors' test settings. Stable Diffusion 2.1
   is no longer on its official Hugging Face page, so the notebook loads a community copy pinned to a fixed revision.
 - **Settings:** HYPIR runs in float32 because float16 gave black images on the T4, which makes it slower. Both models
-  turned out to be effectively deterministic, so the three seeds agree within 0.01 dB.
+  turned out to be effectively deterministic, so the three seeds agree within 0.01 dB on the mean (0.02 dB per input).
 - **Text check:** OCR is only run on the six inputs whose real photo has readable text. Even bicubic gets 0.67 invented
   words per photo from OCR misreading blur, so the invented-word count has a noise floor.
 - **Main outputs:** `scores.csv`, `results_by_seed.csv`, `paired_test.csv`, `by_damage.csv`, `ocr_summary.csv`,
@@ -149,8 +158,13 @@ and re-running a notebook regenerates all of its images.
   `product_pixel_check.py` (all seeds' images added for this), all pair 4 BD-rates are reported, the review timings are
   described as rough, `report_figures.py` was added, and the report and slides were corrected where they overstated
   small or confounded results. A second check the same day corrected how the densest shelf photo's detections were
-  described (boxes drawn against products matched) and added the colour-edit results. The notebooks themselves were
-  not changed.
+  described (boxes drawn against products matched) and added the colour-edit results. A last pass added
+  `statistics_check.py` (Holm correction, bootstrap intervals and effect sizes) and the report text that uses it. No
+  notebook code or output was changed.
+- **Readability pass (3 November 2026):** I added explanatory comment lines to the code cells and short markdown
+  headings (Setup, Figures, Run record, My ratings: results) to each notebook, plus a note above the Kaggle cell that
+  prints "ratings not filled in yet", pointing to the last cell where the ratings are. Nothing was re-run: every line
+  of code and every output is exactly as it was, only comment lines and text cells were added.
 
 ## Data and licences
 
