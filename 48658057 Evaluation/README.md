@@ -47,6 +47,15 @@ quotes (shelf-density subgroups and trend, Spearman correlations, per-photo BD-r
 background check): `python statistics_check.py` (needs
 numpy, pandas and scipy; a few seconds). It writes `statistics_check.csv`. Its p-values match the notebooks'.
 
+### Cost checks
+
+`saving_checks.py` in this folder computes, from the saved results only, how the shelf saving in pair 1 changes with
+the manual check time (the 50.5 s timing has no log), and the 95% Wilson interval for the share of outputs I rated
+publishable in pairs 2 and 3 together with the monthly saving at both ends of that interval, how many products an
+unchecked RF-DETR Nano count misses per photo, and the HYPIR saving once the automatic text and colour gate is
+applied to the rated photos:
+`python saving_checks.py` (needs numpy and pandas; under a second). It prints its results and writes no files.
+
 ### My ratings (user feedback)
 
 The unit's update allows the student's own evaluation as user feedback. Each notebook saves the two models' outputs for
@@ -165,6 +174,9 @@ and re-running a notebook regenerates all of its images.
   headings (Setup, Figures, Run record, My ratings: results) to each notebook, plus a note above the Kaggle cell that
   prints "ratings not filled in yet", pointing to the last cell where the ratings are. Nothing was re-run: every line
   of code and every output is exactly as it was, only comment lines and text cells were added.
+- **Cost checks (3 November 2026):** `saving_checks.py` added, with the report text that uses it (the uncertainty of
+  the savings in pairs 2 and 3, the sensitivity of the shelf saving to the manual check time, the products a shelf
+  count misses and the HYPIR saving after the automatic gate).
 
 ## Data and licences
 

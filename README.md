@@ -2,8 +2,8 @@
 
 Mohammad Rakin Rayan, 48658057, Master of Information Technology (Artificial Intelligence), Macquarie University.
 
-This repository holds the code, saved results and report for my evaluation of four pairs of image AI models for an
-online retail business.
+This submission holds the report, presentation, recorded video, code and saved results for my evaluation of four pairs
+of image AI models for an online retail business.
 
 | Pair | Task | System A | System B |
 |---|---|---|---|
@@ -14,11 +14,13 @@ online retail business.
 
 ## Contents
 
-- `48658057 Report.pdf`: the written report.
-- `48658057 Presentation.pptx`: the slides, with speaker notes.
+- `48658057 Report/`: the written report (PDF).
+- `48658057 Presentation/`: the slides (PowerPoint), with the recorded narration on each slide.
+- `48658057 Video/`: the recorded presentation (MP4), exported from the narrated slides.
 - `48658057 Evaluation/`: one folder per pair, each with the notebook I ran on Kaggle (all outputs kept) and a
   `results` folder holding everything the notebook wrote. The folder also has `report_figures.py` (redraws the report
-  figures), `statistics_check.py` (Holm correction, bootstrap intervals and effect sizes) and its own README.
+  figures), `statistics_check.py` (Holm correction, bootstrap intervals and effect sizes), `saving_checks.py`
+  (uncertainty and sensitivity of the cost figures) and its own README.
 
 See [`48658057 Evaluation/README.md`](48658057%20Evaluation/README.md) for how to re-run each pair, what I implemented
 and reused in each one, the data licences and the version history.
